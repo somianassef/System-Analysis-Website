@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Cart</title>
+  <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="logo"><img src="../System Analysis Project/normal-header.svg" alt=""></div>
+    <nav class="nav-right">
+      <a href="index.html">Home</a>
+      <a href="products.html">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <button id="back" class="cart-btn"><img src="../System Analysis Project/add-to-cart.png" alt="" ></button>
+    </nav>
+  </header>
+
+  <main class="cart-container">
+
+    <h1 class="cart-title">Cart</h1>
+
+    <!-- LEFT SECTION (products table) -->
+    <div class="cart-left">
+
+      <div class="cart-table-header">
+        <span>Product</span>
+        <span>Price</span>
+        <span>Quantity</span>
+        <span>Subtotal</span>
+      </div>
+
+      <div id="cart-items"></div>
+
+      <!-- COUPON -->
+      <div class="coupon-row">
+        <input type="text" placeholder="Coupon code">
+        <button class="apply-btn">Apply coupon</button>
+        <button class="update-btn">Update cart</button>
+      </div>
+    </div>
+
+    <!-- RIGHT SECTION (cart totals) -->
+    <div class="cart-right">
+      <h2>Cart totals</h2>
+      <div class="totals-row">
+        <span>Subtotal</span>
+        <span id="subtotal">$0.00</span>
+      </div>
+
+      <button  onclick="window.location.href='checkout.html'" id="checkout" class="proceed-btn">Proceed to checkout</button>
+
+
+      
+    </div>
+
+  </main>
+
+  <script src="cart.js"></script>
+</body>
+</html>
