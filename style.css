@@ -55,7 +55,6 @@ body {
     gap: 30px;
     margin: 0;
     padding: 0;
-    padding-left: 870px;
 }
 
 .nav-links li a {
@@ -377,7 +376,7 @@ body {
 }
   
       .activities-section {
-        background-image: linear-gradient(rgba(8, 8, 8, 0.599), rgba(21, 22, 21, 0.697)), url('../System Analysis Project/middle-cta.jpg');
+        background-image: linear-gradient(rgba(8, 8, 8, 0.599), rgba(21, 22, 21, 0.697)), url('middle-cta.jpg');
         background-size: cover;
         height: 230px;
         background-position: center;
@@ -491,7 +490,7 @@ h2 {
     font-weight: bold;
 }
 .dev{
-     background-image: linear-gradient(rgba(8, 8, 8, 0.599), rgba(21, 22, 21, 0.697)), url('../System Analysis Project/footer-bg.jpg');
+     background-image: linear-gradient(rgba(8, 8, 8, 0.599), rgba(21, 22, 21, 0.697)), url('footer-bg.jpg');
       background-size: cover;
         height: 190px;
         background-position: center;
